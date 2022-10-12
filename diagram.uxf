@@ -1,0 +1,23 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>240</x><y>0</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Metódy inžinierskej práce&gt;&gt;
+
+--
+
+Registrácia na Github
+--
+Vytvorenie repozitára
+--
+Spresnenie témy 9.10.2022
+--
+Predbežná verzia 6.11.2022
+--
+Slajdy prezentácie: 27.11.2022
+--
+Prednesenie prezentácie na cvičení
+--
+Prednesenie projektu</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>190</y><w>100</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;90;80;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>280</y><w>210</w><h>70</h></coordinates><panel_attributes>Osoby
+-..
+
+																	</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>280</y><w>210</w><h>70</h></coordinates><panel_attributes>ID
+--
+120772
+120777</panel_attributes><additional_attributes></additional_attributes></element></diagram>
