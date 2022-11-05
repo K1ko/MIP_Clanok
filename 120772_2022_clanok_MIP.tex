@@ -1,6 +1,6 @@
 % Metódy inžinierskej práce
 
-\documentclass[10pt,twoside,slovak,a4paper]{coursepaper}
+\documentclass[10pt,oneside,slovak,a4paper]{article}
 
 \usepackage[slovak]{babel}
 %\usepackage[T1]{fontenc}
@@ -9,7 +9,7 @@
 \usepackage{graphicx}
 \usepackage{url} % príkaz \url na formátovanie URL
 \usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
-
+\usepackage{pdfpages}
 \usepackage{cite}
 %\usepackage{times}
 
@@ -69,7 +69,7 @@ Hry sú formou rekreácie, ktorá sa vo všeobecnosti považuje za prospešnú p
 \paragraph{4.Hry pre zdravie ovplyvňujúce zdravotné prekurzory}
 %\section{Modifikácie hier pre zdravie v oblastiach bežného života}
 \paragraph{\includegraphics[scale=2]{tps_1.jpeg}}
-
+\caption{1.obr Rozdelenie hier pre zdravie}
 
 \subsection{1.Hry pre zdravie na zvýšenie vedomostí}
 Mnohé zahraničné štúdie preukázali prepojenie zážitkových,herných, a vedomostných aspektov ako jednu z najlepších foriem učenia vôbec pre zapojenie študentov do akademických , zdravotných a spoločenských tématických oblastí.Zo štúdií vyplynulo , že hry ktoré ponúkajú možnosť učenia prostredníctvom ich hrania sú účinnejšie v metaanylýze 39 štúdií a umožňujú študentom lepšiu edukáciu ako tradičná výučba z hľadiska zapamätania si informácii z pohľadu študentov.Učitelia uvádzali , že vážne hry boli z hľadiska zapamätania informácií obzvlášť motivujúce pre študentov so slabými až mierne priemernými výsledkami,avšak toto samotné zvýšenie vedomostí nemusí viesť ku zlepšeniu zdravotného stavu.Napriek tomu , že herné výučbové technológie nie sú príliš rozširené, nedávny výskum ukázal , že až 55\% učiteľov využíva hry na skvalitnenie vzdelania svojich žiakov aspoň raz týždenne.Avšak medzi prvoradé prekážky využívania hier na edukáciu patrí najmä nedostatok času, vysoké náklady a nedostatok technologických prostriedkov v triedach.Dopomáhajú tomu i normy a požiadavky , ktoré vývojárom hier sťažujú DevOps hier určených na výučbu.
@@ -81,6 +81,7 @@ Prvý vykonaný prieskum rôznych hier pre zdravie preukázal , že všetky okre
 Exergames sú hry, ktoré si vyžadujú na ich hranie a pokrok vykonávať fyzickú aktivitu.V posledných rokoch so stúpajúcim záujmom o zdravý životný štýl sa o tento typ hier prejavil značný záujem.Tanečné hry, ktoré sa najskôr vyskytovali iba v herniach sa pomocou snímačou hornej časti tela a podložky dolnej časti tela , ktoré zachytávajú pomocou AI pohyby končatín , začali vyskytovať i v bežných domácnostiach.Energetický výdaj pri týchto hrách bol značne vyšší ako pri hrách so sedavým charakterom.Začlenenie exergames do detských programov proti obezite preukázalo prínosy pre zníženie indexu telesnej hmotnosti ,zvýšenie fyzickej aktivity a zníženie času stráveného pri obrazovke.Deti vo veku od 6 do 11 rokov , ktoré hrali exergames pripojené ku stacionárnemu bicyklu, mali vyšší energetický výdaj ako deti , ktoré tieto hry nehrali.Mnohé výhody hier ako napríklad motivácia a zábava sa môžu kombinovať s pobytom vonku.V literatúre o exergames sa objavilo značné množstvo prehľadov. Niektoré z nich boli veľmi pozitívne a naznačovali , že tieto hry sú dôležitým nástrojom na prevenciu liečby obezity.Exergames častokrát vedú v domácich podmienkach k významným zmenám fyzickej aktivity, hmotnosti a kognitívnych funkcií.
 \subsection{4.Hry pre zdravie ovplyvňujúce zdravotné prekurzory}
 Hranie hier tesne pred operáciou znížilo úzkosti pacientov , čo súviselo s lepšími zdravotnými výsledami a skrátením dĺžky pobytu v nemocnici.Hranie mien bolo navrhnuté ako metóda na vyvolanie fyziologických zmien, ktoré môžu zvýšiť odolnosť , znížiť strach a úzkosť a zlepšiť zdravie pacientov s rakovinou.Interaktivita hier aktivovala oblasti mozgu , ktoré súviseli s pozitívnejším postojom k chemoterapii rakoviny.
+\includepdf[pages={1}]{Diagram_MIP.pdf}
 \section{Proces zmien zapríčinený hrami pre zdravie}
 Deti a dospievajúci sa častokrát učia počas hrania hir pomocou vizuálnej pozornosti.
 \begin{figure*}[tbh]
@@ -95,13 +96,13 @@ Deti a dospievajúci sa častokrát učia počas hrania hir pomocou vizuálnej p
 
 %\section{Iná časť} \label{ina}
 
-Základným problémom je teda\ldots{} Najprv sa pozrieme na nejaké vysvetlenie (časť~\ref{ina:nejake}), a potom na ešte nejaké (časť~\ref{ina:nejake}).\footnote{Niekedy môžete potrebovať aj poznámku pod čiarou.}
+Základným problémom je teda\ldots{} Najprv sa pozrieme na nejaké vysvetlenie (časť~\ref{ina:nejake}), a potom na ešte nejaké %(časť~\ref{ina:nejake}).\footnote{Niekedy môžete potrebovať aj poznámku pod čiarou.}
 
-Môže sa zdať, že problém vlastne nejestvuje\cite{Coplien:MPD}, ale bolo dokázané, že to tak nie je~\cite{Czarnecki:Staged, Czarnecki:Progress}. Napriek tomu, aj dnes na webe narazíme na všelijaké pochybné názory\cite{PLP-Framework}. Dôležité veci možno \emph{zdôrazniť kurzívou}.
+Môže sa zdať, že problém vlastne nejestvuje, ale bolo dokázané, že to tak nie je~. Napriek tomu, aj dnes na webe narazíme na všelijaké pochybné názory. Dôležité veci možno \emph{zdôrazniť kurzívou}.
 
 
 \subsection{Nejaké vysvetlenie} \label{ina:nejake}
-
+\cite{Coplien:MPD}
 Niekedy treba uviesť zoznam:
 
 \begin{itemize}
@@ -133,7 +134,7 @@ Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom
 
 
 \section{Dôležitá časť} \label{dolezita}
-\cite{Coplien:MPD}
+
 
 
 
