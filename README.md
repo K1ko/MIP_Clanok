@@ -1,5 +1,5 @@
 # MIP_Clanok
-##Hry pre zdravie ako súčasť každodenného života
+## Hry pre zdravie ako súčasť každodenného života
 19.oktobra.2022 [Pridal som abstrakt].
 
 6.novembra.2022[Predbežná verzia článku].
