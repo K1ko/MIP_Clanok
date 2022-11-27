@@ -7,3 +7,5 @@
 9.novembra.2022[Začiatok prezentácie].
 
 18.novembra.2022[Dokončenie prezentácie].
+
+Oprava prezentacie
