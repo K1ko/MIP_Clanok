@@ -9,4 +9,3 @@
 18.novembra.2022[Dokončenie prezentácie].
 
 
-
