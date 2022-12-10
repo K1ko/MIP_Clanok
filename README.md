@@ -8,3 +8,4 @@
 
 18.novembra.2022[Dokončenie prezentácie].
 
+10.decembra.2022[Dokončenie článku].
